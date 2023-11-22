@@ -39,5 +39,6 @@ sudo MACHINE=imx8mm-var-dart ./var_make_debian.sh -c all -t target |& tee build.
 
 ## 2. 開発用とターゲット用の呼び出しスクリプトの違い
 開発用　　　：variscite/weston_rootfs.sh
+
 ターゲット用：variscite/weston_rootfs_runtime.sh
 
